@@ -1,0 +1,7 @@
+zuul:
+  prefix: /api
+  routes:
+    login-mgmt:
+      path: /user/**
+      url: http://localhost:8081
+    
